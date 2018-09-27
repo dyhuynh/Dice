@@ -12,8 +12,9 @@ void draw()
 	for(int diceX = 0; diceX<400; diceX+=40) {
 
 Die bob = new Die(diceX,diceY);
-
 bob.show();
+Die sue = new Die(diceX,diceY);
+sue.show();
  diceTotal = diceTotal + bob.diceRoll;
 	diceNum++;
 
@@ -24,7 +25,7 @@ bob.show();
 		}
 	}
 	text("You have "+diceNum+" dice",100,355);
-	text("You have "+diceTotal+" numbers in diceTotal",100,375);
+	text("You have "+diceTotal+" numbers in Total",100,375);
 
 }
 void mousePressed()
