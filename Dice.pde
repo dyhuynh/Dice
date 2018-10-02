@@ -13,8 +13,7 @@ void draw()
 
 Die bob = new Die(diceX,diceY);
 bob.show();
-Die sue = new Die(diceX,diceY);
-sue.show();
+
  diceTotal = diceTotal + bob.diceRoll;
 	diceNum++;
 
