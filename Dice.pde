@@ -23,7 +23,7 @@ bob.show();
 
 		}
 	}
-	text("You have "+diceNum+" dice!",100,355);
+	text("You have "+diceNum+" dice!git",100,355);
 	text("You have "+diceTotal+" numbers in total",100,375);
 
 }
@@ -31,7 +31,7 @@ void mousePressed()
 {
 	redraw();
 }
-class Die //models one single dice cube
+class Die 
 {
 int diceRoll;
 int myX;
@@ -55,7 +55,7 @@ int myY;
 		rect(myX,myY,40,40,12);
 		fill(0);
 
-		//dice 1
+		
 
 
 	if (diceRoll == 1) {
