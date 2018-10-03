@@ -23,7 +23,7 @@ bob.show();
 
 		}
 	}
-	text("You have "+diceNum+" dice",100,355);
+	text("You have "+diceNum+" dice!",100,355);
 	text("You have "+diceTotal+" numbers in total",100,375);
 
 }
